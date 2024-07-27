@@ -53,7 +53,7 @@ export async function POST(req:NextRequest) {
                         from:"Acme <delivered@resend.dev>",
                         to:email,
                         subject:"Notification",
-                        react:EmailTemplate({ username:"Mukhtaar" }),
+                        react:EmailTemplate({ username:"Mukhtar" }),
                         reply_to:'info@support.com'
                     }
                 )
